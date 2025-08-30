@@ -115,20 +115,7 @@ else:
     print((tokens[-1] if tokens else out_text).strip())
 ```
 
-## Base vs Finetuned comparison (100 samples, GPU)
 
-This script compares the base model (no captions) vs the finetuned model (with captions) on the first 100 captioned examples from We-Math `train.json`.
-
-- Outputs: JSON (`/data-mount-large/scripts/comparison_results.json`) and a Markdown report (`/data-mount-large/scripts/comparison.md`).
-- Uses greedy decoding (temperature 0.0) and normalizes answers (single-letter for MCQ; final token/value for word problems).
-
-Run:
-
-```bash
-source activate ft-model && python /data-mount-large/scripts/compare_models.py
-```
-
-See the generated `comparison.md` for a summary and concrete win cases where the base fails and finetuned passes.
 
 ## Notes
 - We recommend running on a GPU for both prediction and comparison.
