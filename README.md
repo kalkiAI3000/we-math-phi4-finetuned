@@ -1,4 +1,4 @@
-# We-Math Phi-4 (Finetuned)
+# We-Math Phi-4  (Finetuned)
 
 This repository documents how to use the finetuned Phi-4 Multimodal model for image-based math reasoning and how to reproduce a short base-vs-finetuned comparison on GPU.
 

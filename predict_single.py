@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python3 \n\n\n
 import os
 import re
 from PIL import Image
