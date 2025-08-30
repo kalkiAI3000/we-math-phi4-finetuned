@@ -31,7 +31,7 @@ question = (
     "As shown in the figure, which of the following shapes is the basic unit of a honeycomb? "
     "A. Parallelogram; B. Regular hexagon; C. Square; D. Regular pentagon"
 )
-image_path = "/data-mount-large/scripts/test.jpeg"  # change to your image path
+image_path = "test.jpeg"  # change to your image path
 
 MODEL_ID = "kalkiai3000/we-math-phi4"
 PROCESSOR_ID = "microsoft/Phi-4-multimodal-instruct"
